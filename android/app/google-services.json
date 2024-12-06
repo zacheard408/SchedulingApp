@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "634987094387",
+    "project_id": "scheduling-app-kimdiq",
+    "storage_bucket": "scheduling-app-kimdiq.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634987094387:android:6b61990833cfb1dca6e506",
+        "android_client_info": {
+          "package_name": "com.mycompany.schedulingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqWMhufCz7SOkrimNjNbQJsFAFQH9koAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
