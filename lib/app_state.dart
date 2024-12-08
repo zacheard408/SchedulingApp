@@ -34,6 +34,10 @@ class FFAppState extends ChangeNotifier {
               .toList() ??
           _calendars;
     });
+    _safeInit(() {
+      _emailForPasswordChange = prefs.getString('ff_emailForPasswordChange') ??
+          _emailForPasswordChange;
+    });
   }
 
   void update(VoidCallback callback) {
@@ -82,6 +86,13 @@ class FFAppState extends ChangeNotifier {
     calendars.insert(index, value);
     prefs.setStringList(
         'ff_calendars', _calendars.map((x) => x.serialize()).toList());
+  }
+
+  String _emailForPasswordChange = '';
+  String get emailForPasswordChange => _emailForPasswordChange;
+  set emailForPasswordChange(String value) {
+    _emailForPasswordChange = value;
+    prefs.setString('ff_emailForPasswordChange', value);
   }
 }
 

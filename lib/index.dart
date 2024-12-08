@@ -12,3 +12,7 @@ export '/calendar/admin_calendar_settings/admin_calendar_settings_widget.dart'
     show AdminCalendarSettingsWidget;
 export '/calendar/calendar_details/calendar_details_widget.dart'
     show CalendarDetailsWidget;
+export '/login/forgot_password/forgot_password_widget.dart'
+    show ForgotPasswordWidget;
+export '/login/reset_password/reset_password_widget.dart'
+    show ResetPasswordWidget;
