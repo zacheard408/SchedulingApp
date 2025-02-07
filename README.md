@@ -40,6 +40,3 @@ Technologies Used:
 
 Flutter, Dart, Firestore
 
-Contact:
-
-hectorgonzo111@gmail.com
