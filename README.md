@@ -1,6 +1,6 @@
 # SchedulingApp
 Hello, and welcome to the Scheduling App (Name subject to change)
-This app was designed to be able to make calendars, populate them with events and then share them with others.
+This app was designed to make calendars, populate them with events, and then share them with others.
 The intended population is people with varying work or school schedules.
 
 # Features: 
@@ -16,27 +16,31 @@ Admins: Create schedules, invite participants, and manage schedule settings.
 Users: View and interact with shared schedules
 
 # Getting Started:
-A compatible IOS or Android Device
+Download the APK in this repository
+Open Android Studio and start an Android device. (The app is optimized for larger screens, so I would suggest at least a 5 inch screen)
+Drag the APK onto the screen and open the app, the logo should be an 'F'. 
 
-An internet connection to authenticate yourself and access or share calendars
-
-Download the app from the App Store (iOS) or Google Play (Android).
-
-Sign up or log in to get started.
- 
 # Usage:
 
 Create a New Schedule:
 
-Navigate to the dashboard and click "Create Schedule."
+Navigate to the dashboard and click "+" or the background that says "Click here"
 
-Add details like title, time, participants, and notes.
+Create a calendar, enter a title, and a description (optional).
 
-Join an Existing Schedule:
+Add details like title, time, and description.
 
-Use an invitation code to join schedules shared by others.
+View the calendar events.
 
 Technologies Used: 
 
-Flutter, Dart, Firestore
+Flutter, Dart
+
+Features to be added soon:
+Improved options for timing of events.
+Adding events after creation of the calendar.
+Clicking on event to view details.
+Calendar sharing. 
+Multiple users.
+Firebase for cloud storage.
 
